@@ -1,0 +1,29 @@
+.comfy {
+  padding: 8px 16px;
+  border-radius: 10px;
+  background-color: #057aff;
+  color: #dbe1ff;
+  font-size: 40px;
+}
+
+.about-content {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.about-content h1 {
+  color: #394e6a;
+  font-size: 60px;
+}
+
+.description p {
+  margin-top: 10px;
+  color: #394e6a;
+  font-size: 20px;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

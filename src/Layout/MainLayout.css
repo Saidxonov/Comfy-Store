@@ -1,0 +1,157 @@
+.header-top {
+  background-color: #021431;
+}
+
+.userName {
+  color: #c7c9d1;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  column-gap: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.userName p:hover {
+  text-decoration: underline;
+}
+
+.header {
+  background-color: #f0f6ff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo p {
+  background-color: #057aff;
+  width: 55px;
+  color: #fff;
+  border-radius: 10px;
+  height: 55px;
+  font-size: 30px;
+  padding: 8px;
+  text-align: center;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menus ul {
+  display: flex;
+  align-items: center;
+}
+
+.link a {
+  color: #000;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.menus ul li a {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 10px;
+  color: #000;
+  background-color: transparent;
+}
+
+.menus ul li a:hover {
+  background-color: lightgray;
+}
+
+.menus ul li a.active {
+  background-color: #02132f;
+  color: #fff;
+  padding: 8px 16px;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.cart img {
+  cursor: pointer;
+}
+
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.product {
+  width: 350px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 12px 32px -22px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 12px 32px -22px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 12px 32px -22px rgba(0, 0, 0, 0.75);
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.product:hover {
+  -webkit-box-shadow: 0px 19px 32px -22px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 19px 32px -22px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 19px 32px -22px rgba(0, 0, 0, 0.75);
+  transition: 0.3s;
+}
+
+.img img {
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.featured {
+  margin-top: 100px;
+}
+
+.feature h2 {
+  color: #394e6a;
+  margin-bottom: 10px;
+}
+
+.line {
+  margin-bottom: 30px;
+}
+
+.product-name {
+  color: #394e6a;
+  margin-top: 20px;
+}
+
+.product-price {
+  color: #463aa1;
+  margin-top: 20px;
+}
+
+.cart-count {
+  z-index: 1;
+  display: flex;
+  cursor: pointer;
+}
+
+.cart-count p {
+  font-size: 12px;
+  margin-bottom: 7px;
+  padding: 2px 8px;
+  z-index: 999;
+  color: #fff;
+  background-color: #057aff;
+  border-radius: 43%;
+  display: flex;
+}

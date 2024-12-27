@@ -1,0 +1,57 @@
+.left-side h1 {
+  color: #394e6a;
+  font-size: 50px;
+  line-height: 48px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #394e6a;
+  font-size: 20px;
+}
+
+.top-content {
+  margin-top: 100px;
+}
+
+.product-link {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: #057aff;
+  color: #fff;
+  margin-top: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.first-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-side {
+  overflow-y: hidden;
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+  background-color: #021431;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.right-side::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel img {
+  width: 300px;
+  height: 450px;
+  border-radius: 20px;
+  object-fit: cover;
+}
