@@ -19,7 +19,6 @@ function ProductD() {
 https://strapi-store-server.onrender.com/api/products/${id}`
       )
       .then((response) => {
-        console.log(response);
         if (response.status == 200) {
           setProduct(response.data.data);
           if (setSelectedColor(response.data?.data?.attributes?.colors[0])) {
