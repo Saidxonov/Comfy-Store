@@ -20,7 +20,7 @@ function MainLayout({ children }) {
   }, [cart]);
 
   function handleRedirectToCart() {
-    navigate(`/cart/${id}`);
+    navigate(`/cart`);
   }
 
   return (
